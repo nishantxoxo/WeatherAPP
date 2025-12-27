@@ -6,12 +6,13 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    namespace "com.plcoding.weatherapp"
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.plcoding.weatherapp"
         minSdk 21
-        targetSdk 32
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
